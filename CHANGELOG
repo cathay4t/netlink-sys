@@ -1,4 +1,18 @@
 # Changelog
+## [0.9.0] - 2026-08-18
+### Breaking changes
+ - Use netlink-packet-core 0.9.0. (5dd7b8e)
+
+### New features
+ - Implement IntoRawFd for Socket. (0d3bf1d)
+
+### Bug fixes
+ - make testsuite pass on bigendian. (600033d)
+ - fix: build rust docs for all features, so that we can see `TokioSocket` and
+   others in docs.rs.. (3a49d41)
+ - CHANGELOG: Use `-` instead of `*` for aligning with other rust-netlink
+   crates. (5c08a3a)
+
 ## [0.8.8] - 2026-01-22
 ### Breaking changes
  - N/A
